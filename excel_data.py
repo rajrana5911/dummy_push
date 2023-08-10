@@ -1,4 +1,5 @@
 import pandas as pd
+# this is my code work
 import mysql.connector
 mydb = mysql.connector.connect(
   host="3.140.57.116",
@@ -26,4 +27,7 @@ for i in df:
     print(count,i)
     if count==10:
         break
+  
 print("done")
+print("work has been done")
+print("work has been done")
